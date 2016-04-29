@@ -39,7 +39,7 @@ The current code has already been deployed on our workspace (but is inaccessible
     +	content - Data to be posted
 
  Note: 
- If the Authorization is not passed wxplicitly it will go and save in the credentials that are by default associated in the application, in this case ours.
+ If the Authorization is not passed explicitly it will go and save in the credentials that are by default associated in the application, in this case ours.
 
 - ingestdata
   *	Type : POST
