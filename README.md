@@ -51,6 +51,9 @@ The current code has already been deployed on our workspace (but is inaccessible
     +	tenantId- Timeseries Instance Zone ID
     +	file - Data to be posted as a file
 
+Data format for Ingestion data
+[{"sensorName":"Tst5","SensorID":"TST5","MaxValue":"1022","MinValue":"15","SensorReadings":[{"epoch":"1456552800000","value":"25"}, {"epoch":"1456556400000","value":"34"}, {"epoch":"1456560000000","value":"17"}, {"epoch":"1456563600000","value":"30"},...]}]
+
 All the above are endpoints to be provided in the URL's you derive after you host the application on the Predix Cloud.
 In this case the published the published URL is [LINK](http://http://test-dataingestion-service-demo-1.run.aws-usw02-pr.ice.predix.io/ping)
 
