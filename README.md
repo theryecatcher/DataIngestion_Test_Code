@@ -22,7 +22,7 @@ All the three projects have to be imported to the Spring Tool Suite. It automati
 Once imported and after modifications the project has to be rebuilt and deployed once again with th ehelp of manifest.yml file.
 
 ###Usage
-The crrent code has alreaddy been deployed on our workspace (but is inaccessible due to some cloud space issues have raised a ticket for the same). But once up or deployed as is on your side it can be used for the below purposes:
+The current code has already been deployed on our workspace (but is inaccessible due to some cloud space issues have raised a ticket for the same). But once up or deployed as is on your side it can be used for the below purposes:
 
 - ping
   *	Type : GET
@@ -51,7 +51,7 @@ The crrent code has alreaddy been deployed on our workspace (but is inaccessible
     +	file - Data to be posted as a file
 
 All the above are endpoints to be provided in the URL's you derive after you host the application on the Predix Cloud.
-In this case the published the published URL is [LINK](http://http://test-dataingestion-service-demo-1.run.aws-usw02-pr.ice.predix.io/SaveTimeseriesData)
+In this case the published the published URL is [LINK](http://http://test-dataingestion-service-demo-1.run.aws-usw02-pr.ice.predix.io/ping)
 
 The Authorization token and the Predix Timeseries Zone ID has to be kept in hand to be able to use the above application.
 
