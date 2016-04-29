@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.ge.predix.solsvc.bootstrap.ams.factories.cf.AssetFactoryCFIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 101.431 sec <<< FAILURE! - in com.ge.predix.solsvc.bootstrap.ams.factories.cf.AssetFactoryCFIT
+testAssetCRUDOperations(com.ge.predix.solsvc.bootstrap.ams.factories.cf.AssetFactoryCFIT)  Time elapsed: 1.591 sec  <<< ERROR!
+java.lang.RuntimeException: unable to call url=https://put.your.uaa.uri.here/oauth/token
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.performGet(RestClientImpl.java:369)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.requestToken(RestClientImpl.java:308)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.requestToken(RestClientImpl.java:154)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.addSecureTokenForHeaders(RestClientImpl.java:638)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.getSecureTokenForClientId(RestClientImpl.java:116)
+	at com.ge.predix.solsvc.bootstrap.ams.factories.cf.AssetFactoryCFIT.testAssetCRUDOperations(AssetFactoryCFIT.java:75)
+

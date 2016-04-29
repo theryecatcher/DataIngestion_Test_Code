@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ge.predix.solsvc.bootstrap.ams.factories.cf.ClassificationFactoryIT" time="0.946" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Anoop\Work\GitRepos\InfyIoTDash_RefApp\asset-bootstrap"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Anoop\Work\GitRepos\InfyIoTDash_RefApp\asset-bootstrap"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\anoop_sundaresh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\CloudFoundry;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\anoop_sundaresh\AppData\Roaming\npm;C:\Users\anoop_sundaresh\AppData\Local\atom\bin;C:\python34;C:\Program Files\Apache\maven\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\anoop_sundaresh"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="anoop_sundaresh"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testClassificationCRUDOperations" classname="com.ge.predix.solsvc.bootstrap.ams.factories.cf.ClassificationFactoryIT" time="0.946">
+    <error message="unable to call url=https://put.your.uaa.uri.here/oauth/token" type="java.lang.RuntimeException">java.lang.RuntimeException: unable to call url=https://put.your.uaa.uri.here/oauth/token
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.performGet(RestClientImpl.java:369)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.requestToken(RestClientImpl.java:308)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.requestToken(RestClientImpl.java:154)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.addSecureTokenForHeaders(RestClientImpl.java:638)
+	at com.ge.predix.solsvc.restclient.impl.RestClientImpl.getSecureTokenForClientId(RestClientImpl.java:116)
+	at com.ge.predix.solsvc.bootstrap.ams.factories.cf.ClassificationFactoryIT.testClassificationCRUDOperations(ClassificationFactoryIT.java:67)
+</error>
+    <system-out><![CDATA[12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - predix.oauth.clientId=put.your.clientId
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - headers=[Content-Type: application/x-www-form-urlencoded, Authorization: Basic cHV0LnlvdXIuY2xpZW50SWQ6cHV0LnlvdXIuY2xpZW50U2VjcmV0, Pragma: no-cache]
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - oauthResource=/oauth/token
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - oauthHost=put.your.uaa.uri.here
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - oauthPort=80
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - oauthGrantType=client_credentials
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - proxyHost=
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - proxyPort=
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - userName=null
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - encodePassword=false
+12:13:49.886 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - tokenUrl=https://put.your.uaa.uri.here/oauth/token queryParams=grant_type=client_credentials
+12:13:50.903 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - poolManager.getTotalStats().getMax()10
+12:13:50.903 [main] DEBUG c.g.p.s.r.impl.RestClientImpl - poolManager.getTotalStats().getLeased()0
+]]></system-out>
+    <system-err><![CDATA[Mar 22, 2016 12:13:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Mar 22, 2016 12:13:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+Mar 22, 2016 12:13:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Mar 22, 2016 12:13:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Mar 22, 2016 12:13:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2364305a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@470a696f]
+]]></system-err>
+  </testcase>
+</testsuite>

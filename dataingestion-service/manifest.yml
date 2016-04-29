@@ -1,0 +1,18 @@
+---
+applications:
+  - name: test-dataingestion-service_demo
+    buildpack: java_buildpack
+    path: target/dataingestion-service-1.2.0.jar
+    services:
+      - anoop_uaa_instance  
+env:
+    SPRING_PROFILES_ACTIVE : cloud,clouddev
+    predix_oauthRestHost: e328b0d1-222e-43bf-b795-c5d0f687b3b8.predix-uaa.run.aws-usw02-pr.ice.predix.io
+    predix_oauthClientId: infyOAuth:password
+    trustedIssuerIdsRegexPattern: ^https://(.*\\.)?e328b0d1-222e-43bf-b795-c5d0f687b3b8.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token$
+    accessTokenEndpointUrl : https://e328b0d1-222e-43bf-b795-c5d0f687b3b8.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
+    clientId : infyOAuth
+    clientSecret: password
+    acsUri : https://predix-asset.run.aws-usw02-pr.ice.predix.io
+    // acsSubZone : rmdsubdomain
+    predixTsWebSocketURI: wss://gateway-predix-data-services.run.aws-usw02-pr.ice.predix.io/v1/stream/messages
